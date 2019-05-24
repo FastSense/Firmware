@@ -188,6 +188,8 @@ param set EKF2_AID_MASK 24
 
 param set MPC_COL_PREV_D 1.5
 
+param set COM_OBS_AVOID 0
+
 dataman start
 replay tryapplyparams
 simulator start -s -c $simulator_tcp_port
